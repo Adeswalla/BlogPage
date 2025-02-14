@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffeeba; /* Yellow background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.blog-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.course-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+/* .course-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #888;
+  font-size: 0.85rem;
+} */
+
+.blog-type {
+  background-color: #ffc046; /* Yellow background */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.course-title {
+  margin-bottom: 10px;
+  font-size: 1.2rem; /* Slightly smaller title */
+  font-weight: bold;
+}
+
+.course-description {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 0.9rem; /* Slightly smaller description */
+  line-height: 1.4;
+  overflow: hidden; /* Hide overflowing text */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Add some top margin */
+}
+
+.author-avatar {
+  width: 30px; /* Smaller avatar */
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.blog-owner {
+  color: #333;
+  font-weight: bold;
+  font-size: 15px; /* Smaller author name */
+}
+
+.first {
+  text-align: center;
+  margin-top: 10px;
+  /* padding: auto; */
+  margin-left: 55px;
+
+  border-radius: 10px;
+}
+
+.second {
+  clip-path: circle(45%);
+}
